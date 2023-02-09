@@ -1,0 +1,51 @@
+import { CardStructure } from "../cards/models/card";
+
+export const CHARLIST: CardStructure[] = [
+  {
+    picture: "../img/joffrey.jpg",
+    rank: "King",
+    name: " Joffrey Baratheon",
+    age: 53,
+    bloodline: "Baratheon",
+    life: true,
+  },
+  {
+    picture: "../img/jaime.jpg",
+    rank: "Fighter",
+    name: " Jaime Lannister ",
+    age: 42,
+    bloodline: "Lannister",
+    life: true,
+    weapon: "Long Sword",
+    ability: 8.9,
+  },
+  {
+    picture: "../img/daenerys.jpg",
+    rank: "Fighter",
+    name: " Daenerys Targaryen ",
+    age: 29,
+    bloodline: "Targaryen",
+    life: true,
+    weapon: "Dragons",
+    ability: 9.2,
+  },
+  {
+    picture: "../img/tyrion.jpg",
+    rank: "Asesor",
+    name: "Tyrion Lannister",
+    age: 41,
+    bloodline: "Lannister",
+    life: true,
+    asesorada: "Daenerys Targaryen",
+  },
+  {
+    picture: "../img/bronn.jpg",
+    rank: "squire",
+    name: "Bronn",
+    age: 24,
+    bloodline: "Unknown",
+    life: true,
+    serving: "Jaime Lannister",
+    loyalty: 10,
+  },
+];
