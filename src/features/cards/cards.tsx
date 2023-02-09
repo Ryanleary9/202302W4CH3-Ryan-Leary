@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { CardStructure } from "./models/card";
 import { CHARLIST } from "../charmock/charmock";
 import React from "react";
