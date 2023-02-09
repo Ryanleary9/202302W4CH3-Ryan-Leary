@@ -4,11 +4,9 @@ import { CHARLIST } from "../charmock/charmock";
 import React from "react";
 
 export function Cards() {
-  const [charData, setCharData] = useState();
-
   return (
     <div>
-      {CHARLIST.map((char, index) => {
+      {CHARLIST.map((char) => {
         return (
           <Card
             rank={char.rank}
